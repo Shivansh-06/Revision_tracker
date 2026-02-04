@@ -8,10 +8,9 @@ from datetime import timedelta
 # ----------------------------
 
 # NOTE:
-# In production, set this as an environment variable.
-# Example:
-# export JWT_SECRET_KEY="super-random-secret"
-JWT_SECRET_KEY = os.getenv("JWT_SECRET_KEY", "CHANGE_ME_IN_PRODUCTION")
+# In testing, set this as an environment variable.
+
+JWT_SECRET_KEY = os.getenv("JWT_SECRET_KEY", "CHANGE_IN_FUTURE")
 
 JWT_ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 60
