@@ -220,13 +220,6 @@ Optional ML-based recommendations
 
 
 
-▶️ Running Locally
-pip install -r requirements.txt
-uvicorn app.app:app --reload
-
-
-Visit:
-http://127.0.0.1:8000/docs
 
 👤 Author
 
